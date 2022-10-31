@@ -55,7 +55,7 @@ module.exports = {
         type: "asset/resource",
       },
       {
-        test: /\.module\.(scss|sass)$/,
+        test: /.(scss|sass)$/,
         include: paths.appSrc,
         use: [
           "style-loader",
