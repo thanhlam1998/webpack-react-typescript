@@ -62,10 +62,10 @@ module.exports = {
           isEnvProduction && MiniCssExtractPlugin.loader,
           {
             loader: "css-loader",
-            options: {
-              modules: true,
-              importLoaders: 2,
-            },
+//             options: { 
+//               modules: true, // Use this if you want to use module css
+//               importLoaders: 2,
+//             },
           },
           {
             loader: "postcss-loader",
